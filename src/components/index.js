@@ -1,0 +1,10 @@
+export { default as CoursesDetails } from "./CoursesDetails/CoursesDetails";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Footer } from "./Footer/Footer";
+export { default as Header } from "./HomeLayouts/Header/Header";
+export { default as VideoPopup } from "./HomeLayouts/VideoPopup/VideoPopup";
+export { default as HowItWork } from "./HomeLayouts/HowItWork/HowItWork";
+export { default as LatestCourses } from "./HomeLayouts/LatestCourses/LatestCourses";
+export { default as ContactUS } from "./ContactLayouts/ContactUS";
+export { default as AboutUS } from "./AboutLayouts/AboutUS";
+export { default as CoursesAll } from "./CoursesLayouts/CoursesAll";

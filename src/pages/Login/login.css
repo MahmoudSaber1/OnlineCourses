@@ -1,0 +1,98 @@
+.sign-in-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sign-in-container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .sign-in-container form {
+    width: 100%;
+  }
+}
+
+.sign-in-container form h1 {
+  font-weight: 600;
+}
+
+.sign-in-container .social-container {
+  margin: 20px 0;
+}
+
+.sign-in-container .social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.sign-in-container .social-container a:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.sign-in-container span {
+  font-size: 12px;
+}
+
+.sign-in-container input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.sign-in-container .forget {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.sign-in-container button {
+  border-radius: 20px;
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 45px;
+  letter-spacing: 1px;
+  text-transform: inpercase;
+  transition: 80ms ease-in;
+  cursor: pointer;
+}
+
+.sign-in-container button:active {
+  transform: scale(0.95);
+}
+
+.sign-in-container button:focus {
+  outline: none;
+}
+
+.sign-in-container button:hover {
+  background-color: var(--bg-dark);
+  border-color: var(--bg-dark);
+}
+
+.sign-in-container button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}

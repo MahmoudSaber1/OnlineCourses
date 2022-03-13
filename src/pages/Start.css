@@ -1,0 +1,41 @@
+.box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box h4 {
+  font-size: 18px;
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: var(--black-900);
+  font-weight: 600;
+}
+
+.box p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black-900);
+  margin-bottom: 50px;
+}
+
+.box .Links button {
+  padding: 18px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.box .Links .btn-dark:hover {
+  color: #000;
+  background-color: #f0f0f0;
+  border-color: #000;
+}
+
+.box .Links button a {
+  text-decoration: none !important;
+  color: inherit;
+}
